@@ -5,6 +5,8 @@ datasets, baselines, pre-trained models, corpus and leaderboard
 
 我们会选择一系列有一定代表性的任务对应的数据集，做为我们测试基准的数据集。这些数据集会覆盖不同的任务、数据量、任务难度。
 
+体验Demo：<a href="https://www.qclue.cn/demo" target="_" style="color:red">数据集自动标注工具--释放AI潜力！</a>
+
 Update: <a href='https://mp.weixin.qq.com/s/LtkKuKdpg8Lg3XCEMWpaMw'> CLUE论文被计算语言学国际会议 COLING2020高分录用</a>
 
 中文任务测评基准(CLUE benchmark)-排行榜 Leaderboard
@@ -18,7 +20,7 @@ Update: <a href='https://mp.weixin.qq.com/s/LtkKuKdpg8Lg3XCEMWpaMw'> CLUE论文�
 | <a href="https://github.com/google-research/bert">BERT-base</a>        | 68.77 | 108M |  73.70 | 56.58  | 60.29 | 79.69 |  62.0 | 80.36 |
 | <a href="https://github.com/ymcui/Chinese-BERT-wwm">BERT-wwm-ext</a>      | 68.75 | 108M  | 74.07 | 56.84  | 59.43 | 80.42 | 61.1  | 80.63 |
 | <a href="https://github.com/PaddlePaddle/ERNIE">ERNIE-base</a>         | 68.55 | 108M  | 73.83 | 58.33 | 58.96 | 80.29 | 60.8  | 79.1 |
-| <a href="https://github.com/brightmart/roberta_zh">RoBERTa-large</a>      | **73.20** | 334M  | 74.02 | 57.86 | 62.55 | 81.70 | 72.7  | 81.36 |
+| <a href="https://github.com/brightmart/roberta_zh">RoBERTa-large</a>      | 71.70 | 334M  | 74.02 | 57.86 | 62.55 | 81.70 | 72.7  | 81.36 |
 | <a href="https://github.com/ymcui/Chinese-PreTrained-XLNet">XLNet-mid</a>  | 68.58 | 200M | 70.50 | 56.24 | 57.85 | 81.25 |  64.4   | 81.26  |
 | <a href="https://github.com/google-research/albert">ALBERT-xxlarge</a>      | 71.04 | 235M   | 75.6 | **59.46** | 62.89 | **83.14** |  61.54  | **83.63**  |
 | <a href="https://github.com/google-research/albert">ALBERT-xlarge</a>      | 68.92 | 60M   | 69.96 | 57.36 | 59.50 | 81.13 |  64.34   | 81.20  |
@@ -26,7 +28,7 @@ Update: <a href='https://mp.weixin.qq.com/s/LtkKuKdpg8Lg3XCEMWpaMw'> CLUE论文�
 | <a href="https://github.com/google-research/albert">ALBERT-base</a>      | 67.44 | 12M   | 72.55  | 55.06 | 56.58 | 77.58 |  64.34   | 78.5  |
 | <a href="https://github.com/brightmart/albert_zh">ALBERT-tiny</a>        | 62.61 | **4M** | 69.92 | 53.35 | 48.71 | 70.61 |  58.5  | 74.56 |
 | <a href="https://github.com/ymcui/Chinese-BERT-wwm">RoBERTa-wwm-ext</a>   | 70.10 | 108M  | 74.04 | 56.94 | 60.31 | 80.51 | 67.8 | 81.0 |
-| <a href="https://github.com/ymcui/Chinese-BERT-wwm">RoBERTa-wwm-large</a> | 72.83 | 330M | **76.55** | 58.61 | **62.98** | 82.12 |  **74.6** | 82.13 |
+| <a href="https://github.com/ymcui/Chinese-BERT-wwm">RoBERTa-wwm-large</a> | **72.83** | 330M | **76.55** | 58.61 | **62.98** | 82.12 |  **74.6** | 82.13 |
 
 
     注：AFQMC:蚂蚁语义相似度(Acc)；TNEWS:文本分类(Acc)；IFLYTEK:长文本分类(Acc); CMNLI: 自然语言推理中文版; 
@@ -120,13 +122,13 @@ Corpus for Langauge Modelling, Pre-training, Generating tasks
 
 包含如下子语料库（总共14G语料）：
 
-1、<a href="https://pan.baidu.com/s/195M7H5w3N8shYlqCjVL0_Q">新闻语料 news2016zh_corpus</a>: 8G语料，分成两个上下两部分，总共有2000个小文件。  密码:mzlk
+1、<a href="https://pan.baidu.com/s/1MLLM-CdM6BhJkj8D0u3atA">新闻语料 news2016zh_corpus</a>: 8G语料，分成两个上下两部分，总共有2000个小文件。 
 
-2、<a href="https://pan.baidu.com/s/1Vk2PihMiZNmWvA2agPb1iA">社区互动-语料 webText2019zh_corpus</a>：3G语料，包含3G文本，总共有900多个小文件。 密码:qvlq
+2、<a href="https://drive.google.com/open?id=1u2yW_XohbYL2YAK6Bzc5XrngHstQTf0v">社区互动-语料 webText2019zh_corpus</a>：3G语料，包含3G文本，总共有900多个小文件。
 
-3、<a href="https://pan.baidu.com/s/1XrM-x70PY4JEb0xCoB_mUw">维基百科-语料 wiki2019zh_corpus</a>：1.1G左右文本，包含300左右小文件。  密码:rja4
+3、<a href="https://pan.baidu.com/s/1uPMlIY3vhusdnhAge318TA">维基百科-语料 wiki2019zh_corpus</a>：1.1G左右文本，包含300左右小文件。  
 
-4、<a href="https://pan.baidu.com/s/16cPwCcPduMNGdRSuILhEuQ">评论数据-语料 comments2019zh_corpus</a>：2.3G左右文本，共784个小文件，包括点评评论547个、亚马逊评论227个，合并<a href="https://github.com/InsaneLife/ChineseNLPCorpus">ChineseNLPCorpus</a>的多个评论数据，清洗、格式转换、拆分成小文件。  密码:5kwk
+4、<a href="https://pan.baidu.com/s/18-ufaJJtf7ullzHMWXvhFw">评论数据-语料 comments2019zh_corpus</a>：2.3G左右文本，共784个小文件，包括点评评论547个、亚马逊评论227个，合并<a href="https://github.com/InsaneLife/ChineseNLPCorpus">ChineseNLPCorpus</a>的多个评论数据，清洗、格式转换、拆分成小文件。  
 
 这些语料，你可以通过上面这两个项目，清洗数据并做格式转换获得；
 
@@ -698,7 +700,7 @@ Why do we need a benchmark for Chinese lanague understand evaluation?
 ---------------------------------------------------------------------
 ##### 你将可以 Benefits：
 
-1、成功中国第一个中文任务基准测评的创始会员
+1、成为中国第一个中文任务基准测评的创始会员
 
 2、能与其他专业人士共同贡献力量，促进中文自然语言处理事业的发展
 
