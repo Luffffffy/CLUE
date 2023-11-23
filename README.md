@@ -5,11 +5,14 @@ datasets, baselines, pre-trained models, corpus and leaderboard
 
 我们会选择一系列有一定代表性的任务对应的数据集，做为我们测试基准的数据集。这些数据集会覆盖不同的任务、数据量、任务难度。
 
+Update:
+<a href='https://www.SuperCLUEAI.com'>中文通用大模型匿名对战评价基准，SuperCLUE琅琊榜</a>
+
+<a href="https://github.com/CLUEbenchmark/SuperCLUE">SuperCLUE: 中文通用大模型综合性测评基准</a>
+
 优秀的国产深度学习框架PaddlePaddle中的NLP核心项目：<a href="https://github.com/CLUEbenchmark/CLUE/tree/master/baselines/paddlenlp" target="_" style="color:red">PaddleNLP现以全面支持CLUE基准</a>
 
-预约演示：<a href="https://www.modelfun.cn" target="_" style="color:red">数据集自动标注工具--释放AI潜力！</a>
-
-Update: <a href='https://mp.weixin.qq.com/s/LtkKuKdpg8Lg3XCEMWpaMw'> CLUE论文被计算语言学国际会议 COLING2020高分录用</a>
+<a href='https://mp.weixin.qq.com/s/LtkKuKdpg8Lg3XCEMWpaMw'> CLUE论文被计算语言学国际会议 COLING2020高分录用</a>
 
 中文任务测评基准(CLUE benchmark)-排行榜 Leaderboard
 ---------------------------------------------------------------------
